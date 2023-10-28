@@ -1,0 +1,6 @@
+Hotel#deallocate(II)V
+Hotel#bill(II)V
+java.lang.String#charAt(I)C
+java.util.Scanner#next()Ljava/lang/String;
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

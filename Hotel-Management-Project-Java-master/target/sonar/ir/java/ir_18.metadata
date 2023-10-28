@@ -1,0 +1,4 @@
+Hotel#bill(II)V
+==
+printf java.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+println java.io.PrintStream#println(Ljava/lang/String;)V

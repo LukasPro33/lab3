@@ -1,0 +1,7 @@
+organization=lukaspro33
+projectKey=LukasPro33_Hotel-Management-Project-Java
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.47490
+dashboardUrl=https://sonarcloud.io/dashboard?id=LukasPro33_Hotel-Management-Project-Java
+ceTaskId=AYs0YkxP9_aUvGuCJkHT
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYs0YkxP9_aUvGuCJkHT
