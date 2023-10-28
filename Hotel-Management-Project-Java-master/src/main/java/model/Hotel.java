@@ -34,11 +34,10 @@ public class Hotel implements RoomOperations, Serializable
         roomTypeMap.put(2, Room.RoomType.DELUXE_DOUBLE);
         roomTypeMap.put(3, Room.RoomType.LUXURY_SINGLE);
         roomTypeMap.put(4, Room.RoomType.DELUXE_SINGLE);
-        try {
-            File file = new File(fileName);
+        File file = new File(fileName);
+        try(FileInputStream fin = new FileInputStream(file);
+            ObjectInputStream ois = new ObjectInputStream(fin)) {
             if (file.exists()) {
-                FileInputStream fin = new FileInputStream(file);
-                ObjectInputStream ois = new ObjectInputStream(fin);
                 return (Hotel) ois.readObject();
             }
         } catch (IOException | ClassNotFoundException e) {
